@@ -91,7 +91,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier
                             .align(Alignment.TopCenter)
                             .padding(top = 16.dp),
-                        horizontalAlignment = Alignment.CenterVertically
+                        horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         Surface(
                             shape = RoundedCornerShape(20.dp),
